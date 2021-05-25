@@ -1,65 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main">
-        <nav>
-            <div class="logo">
-                <img src="./shop.jpg" alt="" width="100px">
-                <p>Happy Shopping</p>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>edX | Free Online Courses</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div id="top_div">
+            <div class="inner_div" id="innerdiv1">
+                <img id="img1" src="images/img1.svg" alt="edX" width="75" height="75">
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="./Layout.html">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">My Account</a></li> 
-                </ul>
-            </div>
-        </nav>
-        <div class="information">
-            <img src="./Polo short.jpg" class="shirt">
-            <div id="circle">
-                <div class="feature one">
-                    <img src="./color.jpg">
-                    <div>
-                        <h1>Color</h1>
-                        <p>Red </p>
-                    </div>
-                </div>
-                <div class="feature two">
-                    <img src="./bran pic.png">
-                    <div>
-                        <h1>brand</h1>
-                        <p>Polo</p>
-                    </div>
-                </div>
-                <div class="feature three">
-                    <img src="./measure.jpg">
-                    <div>
-                        <h1>Size</h1>
-                        <p>Large</p>
-                    </div>
-                </div>
-                <div class="feature four">
-                    <img src="./stuff.png">
-                    <div>
-                        <h1>Stuff</h1>
-                        <p>Cotton</p>
-                    </div>
-                </div>
-            </div>
+            <div class="inner_div" id="innerdiv2"><p>Courses</p></div>
+            <div class="inner_div" id="innerdiv3"><p>Programs & Degrees</p></div>
+            <div class="inner_div" id="innerdiv4"><p>Schools & Partners</p></div>
+            <div class="inner_div" id="innerdiv5"><p>edX for Business</p></div>
+            <div class="inner_div" id="innerdiv6"><p>Sign In</p></div>
+            <div class="inner_div" id="innerdiv7"><button id="register-button" type="button">Register</button></div>
         </div>
-        <div id="fixed">
-            <img src="./message.png" width="30px">
-            <H2>Messages</H2>
+        <div id="banner_div">
+            <div>
+            <h1 id="text1">Restless learners</h1>
+            <p id="text2">change the world</p>
+            <input id="search-box" type="text" placeholder="Search our 3000+ courses">
+            <button id="search-button" type="button">Search</button> 
+            <br><br><br><a id="link1" href="url">Explore all courses</a>
+
         </div>
-    </div>
-</body>
+        <div>
+            <img id="img2" src="images/banner-image.png" alt="edX" >
+        </div>
+        
+
+        </div>
+        <div id="yellow-strip"><p id="strip-text"><span id="strip-text-large">406,655</span> people are learning on edX today</p></div>
+        <div id="div3outer">
+        <div id="div3inner">
+            <img class="uni-img" id="u1" src="images/uni1.png" alt="edX" >
+            <img class="uni-img" id="u2" src="images/uni2.png" alt="edX" >
+            <img class="uni-img" id="u3" src="images/uni3.png" alt="edX" >
+            <img class="uni-img" id="u4" src="images/uni4.png" alt="edX" >
+            <img class="uni-img" id="u5" src="images/uni5.png" alt="edX" >
+            <img class="uni-img" id="u6" src="images/uni6.png" alt="edX" > 
+        </div>
+        <a id="link2" href="url">Learn from more than 160 member universities</a>
+        </div>
+        <div id="div4outer-explore-courses">
+           <div> <p id="explore">Explore top courses</p></div>
+           <div id="div4buttons">
+            <button class="explore-buttons" id="cs-button" type="button">Computer Science</button> 
+            <button class="explore-buttons" id="b-button" type="button">Business</button> 
+            <button class="explore-buttons" id="ds-button" type="button">Data Science</button> 
+            <button class="explore-buttons" id="e-button" type="button">Engineering</button> 
+            <button class="explore-buttons" id="d-button" type="button">Design</button> 
+           </div>
+        </div>
+           <div id="cards-container">
+
+               <div class="card" id="c1">
+                   <div id="c1-header" class="c-header">
+                       <img id="c1-img" class="c-img" src="images/c1-img.jpeg">
+                   </div>
+                   <div id="c1-mid" class="c-mid">
+                    <img id="c1-logo" class="c-logo" src="images/c1-logo.png">
+                </div>
+                   <div id="c1-body">
+                       <h3 id="c1-t1" class="c-t1">Introduction to Cloud Computing</h3>
+                       <p class="c-t2">IBM</p>
+                       <br>
+                       <p class="c-t3" id="c1-t3">Course</p>
+                   </div>
+                </div>
+
+                <div class="card" id="c2">
+                    <div id="c2-header" class="c-header">
+                        <img id="c2-img" class="c-img" src="images/c2-img.png">
+                    </div>
+                    <div id="c2-mid" class="c-mid">
+                        <img id="c2-logo" class="c-logo" src="images/c2-logo.png">
+                    </div>
+                    <div id="c2-body">
+                        <h3 id="c2-t1" class="c-t1">Programming for Everybody (Getting Started with Python)</h3>
+                        <p class="c-t2">MichiganX</p>
+                        <p class="c-t3" id="c2-t3">Course</p>
+                    </div>
+                 </div>
+
+                 <div class="card" id="c3">
+                    <div id="c3-header" class="c-header">
+                        <img id="c3-img" class="c-img" src="images/c3-img.png">
+                    </div>
+                    <div id="c3-mid" class="c-mid">
+                        <img id="c3-logo" class="c-logo" src="images/c3-logo.png">
+                    </div>
+                    <div id="c3-body">
+                        <h3 id="c3-t1" class="c-t1">Introduction to Linux</h3>
+                        <p class="c-t2">LinuxFoundationX</p>
+                        <br><br>
+                        <p class="c-t3" id="c3-t3">Course</p>
+                    </div>
+                 </div>
+
+                 <div class="card" id="c4">
+                    <div id="c4-header" class="c-header">
+                        <img id="c4-img" class="c-img" src="images/c4-img.jpeg">
+                    </div>
+                    <div id="c4-mid" class="c-mid">
+                        <img id="c4-logo" class="c-logo" src="images/c4-logo.png">
+                    </div>
+                    <div id="c4-body">
+                        <h3 id="c4-t1" class="c-t1">Introduction to Cloud Development with HTML5, CSS3, and Ja...</h3>
+                        <p class="c-t2">IBM</p>
+                        
+                        <p class="c-t3" id="c4-t3">Course</p>
+                    </div>
+                 </div>
+               
+           </div>
+           <div id="l3">
+            <a id="link3" href="url">Explore more computer science courses</a>
+           </div>
+        
+           <div id="banner_div2">
+            <div id="banner-container-left">
+                <img id="img3" src="images/banner-image2.png" alt="edX" >
+            </div>
+            <div id="banner-container-right">
+                <div id="text-and-button1" class="text-and-button">
+                    <div id="banner-t1">
+                        <h3 id="b2-h3" class="banner2-h3">FOR LEARNERS</h4>
+                            
+                        <p class="banner2-text">Propel your career, get a degree, or expand your knowledge at any level.</p>
+                    </div>
+                    <div id="banner-b1" class="banner2-b">
+                        <button class="banner2-button" type="button"><span>&#8594;</span></button> 
+                    </div>
+                </div>
+
+                <div id="text-and-button2" class="text-and-button">
+                    <div id="banner-t2">
+                        <h3 class="banner2-h3">FOR BUSINESSES</h3>
+                        
+                        <p class="banner2-text">Upskill employees and build a culture of learning.</p>
+                    </div>
+                    <div id="banner-b2"  class="banner2-b">
+                        <button class="banner2-button" type="button"><span>&#8594;</span></button> 
+                    </div>
+                </div>
+
+                <div id="text-and-button3" class="text-and-button">
+                    <div id="banner-t3">
+                        <h3 class="banner2-h3">FOR EDUCATORS</h3>
+                        
+                        <P class="banner2-text">Expand your curriculum through blended learning.</P>
+                    </div>
+                    <div id="banner-b3"  class="banner2-b">
+                        <button class="banner2-button" type="button"><span>&#8594;</span></button> 
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div id="banner_div3">
+            <div id="banner3-container-left">
+                <h2 id="b3-h2">NEW: BU's OMBA Final Application Deadline: May 12th</h2>
+                <p id="b3-p">Don't miss your chance to earn an accredited MBA 100% online from BU's Questrom School of Business this fall.</p>
+                <button class="banner3-button" type="button">Learn More</button> 
+            </div>
+            <div id="banner3-container-right">
+                <img id="img4" src="images/banner3-img.jpg" alt="edX" >
+             </div>
+        </div>
+
+        <div id="banner_div4">
+            <div id="banner4-container-left">
+                <h2 id="b4-h2">Enabling transformation</h2>
+                <p id="b4-p1" class="b4-p">Your edX learning experience is grounded in cutting edge cognitive science. With more than two dozen distinct learning features to help you achieve your goals, our approach follows three key principles:</p>
+                <h2 id="b4-h4" class="b4-h">Experience</h2>
+                <p id="b4-p2" class="b4-p">Learn new knowledge and skills in a variety of ways, from engaging video lectures and dynamic graphics to data visualizations and interactive elements.</p>
+                <h2 id="b4-h4" class="b4-h">Practice</h2>
+                <p id="b4-p3" class="b4-p">Demonstrating your knowledge is a critical part of learning. edX courses and programs provide a space to practice with quizzes, open response assessments, virtual environments, and more.</p>
+                <h2 id="b4-h4" class="b4-h">Apply</h2>
+                <p id="b4-p4" class="b4-p">Learning on edX transforms how you think and what you can do, and translates directly into the real world—immediately apply your new capabilities in the context of your job.</p>
+               </div>
+            <div id="banner4-container-right">
+                <img id="img5" src="images/banner4-img.png" alt="edX" >
+             </div>
+        </div>
+
+        <div id="banner_div5">
+        <div id="banner_div5_left">
+            <h3 id="b5-h3">Our vision</h3>
+            <h2 id="b5-h2">As a global nonprofit, we're relentlessly pursuing our vision of a world where every learner can access education to unlock their potential, without the barriers of cost or location.</h2>
+            <button class="banner5-button" type="button">Learn More</button>
+        </div>
+        <div id="banner_div5_right"><img id="img6" src="images/banner5-img.png" alt="edX" ></div>
+        </div>
+        <div id="footer-div">
+            <div id="left-footer-inner">
+                <div id="left-top-div">
+                    <img id="footer-img" src="images/img1.svg" alt="edX" width="75" height="75">
+                </div>
+
+                <div id="left-mid-div">
+                        <div id="mid1-div">
+                            <p class="footer-heading underline">edX</p>
+                            <p class="footer-text underline">About</p>
+                            <p class="footer-text underline">edX for Business</p>
+                            <p class="footer-text underline">Affiliates</p>
+                            <p class="footer-text underline">Open edX</p>
+                            <p class="footer-text underline">Careers</p>
+                            <p class="footer-text underline">News</p>
+                        </div>
+
+                        <div id="mid2-div">
+                            <p class="footer-heading underline">Connect</p>
+                            <p class="footer-text underline">Blog</p>
+                            <p class="footer-text underline">Contact Us</p>
+                            <p class="footer-text underline">Help Center</p>
+                            <p class="footer-text underline">Media Kit</p>
+                            <p class="footer-text underline">Donate</p>
+                            
+                        </div>
+
+                        <div id="mid3-div">
+                            <p class="footer-heading underline">Legal</p>
+                            <p class="footer-text underline">Terms of Service & Honor Code</p>
+                            <p class="footer-text underline">Privacy Policy</p>
+                            <p class="footer-text underline">Accessibility Policy</p>
+                            <p class="footer-text underline">Trademark Policy</p>
+                            <p class="footer-text underline">Sitemap</p>
+                            
+                        </div>
+
+                </div>
+
+                <div id="left-bottom-div">
+                    <p class="footer-text2">© 2021 edX Inc. All rights reserved.</p>
+                    <p class="footer-text2">| 深圳市恒宇博科技有限公司 粤ICP备17044299号-2</p>
+                </div>
+
+            </div>
+
+            <div id="right-footer-inner">
+                <div id="right-top-div">
+                    <div class="social-media"><img id="fb-ico" class="ico" src="images/fb-icon.webp"></div>
+                    <div class="social-media"><img class="ico" src="images/twitter-icon.webp"></div>
+                    <div class="social-media"><img class="ico" src="images/linkedin-icon.webp"></div>
+                    <div class="social-media"><img class="ico reddit-ico" src="images/reddit-icon.webp"></div>
+
+                </div>
+
+                <div id="right-mid-div">
+                    <p id="language-t" class="footer-heading"> Choose Language</p>
+                    <div id="english-container">
+                    <div><button class="footer-button1" type="button">English</p></div>
+                    <div><button class="footer-button" type="button">Apply</button></div>
+                    </div>
+                </div>
+
+                <div id="right-bottom-div">
+                    <div><img id="app-store-img" src="images/app-store.svg" alt="edX" ></div>
+                    <div><img id="play-store-img" src="images/play-store.png" alt="edX" ></div>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
 </html>
